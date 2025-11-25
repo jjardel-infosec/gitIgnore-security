@@ -1,0 +1,331 @@
+# ===================================
+# CREDENCIAIS E SECRETS
+# ===================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.staging.local
+.env.test.local
+secrets.txt
+credentials.json
+credentials.xml
+secrets.yaml
+secrets.yml
+secrets.env
+.secrets/
+.auth
+.apikeys
+api-keys.json
+auth.json
+authentication.json
+token.json
+tokens.json
+
+# ===================================
+# VARIÁVEIS DE AMBIENTE
+# ===================================
+env.local
+env.*.local
+.env.production
+.env.development
+.env.staging
+.env.test
+
+# ===================================
+# INFRAESTRUTURA COMO CÓDIGO (Terraform)
+# ===================================
+*.tfvars
+*.tfvars.json
+!example.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+*.auto.tfvars
+
+# ===================================
+# ANSIBLE
+# ===================================
+*.vault
+vault.yml
+vault.yaml
+vault.json
+.ansible/inventory
+
+# ===================================
+# AWS CLOUDFORMATION
+# ===================================
+packaged.yaml
+packaged.yml
+.aws-sam/
+
+# ===================================
+# CHAVES E CERTIFICADOS
+# ===================================
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Chaves Genéricas
+*.pem
+*.key
+*.crt
+*.cert
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.p7b
+*.pkcs7
+*.spc
+
+# GPG/PGP
+*.gpg
+*.asc
+secring.gpg
+pubring.gpg
+
+# ===================================
+# CONFIGURAÇÃO SENSÍVEL
+# ===================================
+config.local.yml
+config.local.yaml
+config.local.json
+config.production.yml
+config.production.yaml
+config.production.json
+settings.local.py
+settings.production.py
+local_settings.py
+local.properties
+local.config
+database.yml
+database.yaml
+database.json
+connections.json
+mailer.yml
+mailer.yaml
+
+# ===================================
+# NODE.JS / NPM / YARN
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+package-lock.json
+yarn.lock
+
+# ===================================
+# PYTHON
+# ===================================
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+*.pyc
+__pycache__/
+
+# ===================================
+# JAVA
+# ===================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# ===================================
+# GO
+# ===================================
+vendor/
+*.o
+*.a
+
+# ===================================
+# RUBY
+# ===================================
+Gemfile.lock
+vendor/bundle
+.bundle/
+
+# ===================================
+# .NET
+# ===================================
+bin/
+obj/
+*.dll
+*.exe
+packages/
+
+# ===================================
+# LOGS E CACHE
+# ===================================
+*.log
+logs/
+log/
+*.log.*
+debug.log
+npm-debug.log
+yarn-debug.log
+*.cache
+cache/
+.cache/
+.tmp/
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# ===================================
+# VS CODE
+# ===================================
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+# ===================================
+# JETBRAINS (IntelliJ, WebStorm, etc)
+# ===================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===================================
+# SUBLIME TEXT
+# ===================================
+*.sublime-project
+*.sublime-workspace
+
+# ===================================
+# VIM
+# ===================================
+*.swp
+*.swo
+*~
+.vim/
+.netrwhist
+
+# ===================================
+# EMACS
+# ===================================
+*~
+\#*\#
+.\#*
+*.elc
+
+# ===================================
+# VISUAL STUDIO
+# ===================================
+.vs/
+*.user
+*.sln.docstates
+
+# ===================================
+# ECLIPSE
+# ===================================
+.classpath
+.project
+.settings/
+
+# ===================================
+# AWS
+# ===================================
+.aws/
+~/.aws/credentials
+~/.aws/config
+aws_credentials
+aws_credentials.json
+.aws-credentials
+
+# ===================================
+# GOOGLE CLOUD
+# ===================================
+.gcp/
+google-cloud-key.json
+gcp-key.json
+service-account-key.json
+
+# ===================================
+# AZURE
+# ===================================
+.azure/
+azure-credentials.json
+azure_credentials
+
+# ===================================
+# KUBERNETES
+# ===================================
+kubeconfig
+kubeconfig.yaml
+kubeconfig.yml
+.kube/
+helm-values-*.yaml
+helm-values-*.yml
+kustomization-*.yaml
+
+# ===================================
+# BANCO DE DADOS
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+*.sqlcipher
+*.mdb
+*.accdb
+dump.sql
+dump.rds
+backup.sql
+db_credentials.json
+database.secrets.yml
+
+# ===================================
+# DOCKER
+# ===================================
+.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+registry/
+secrets.docker
+~/.docker/config.json
+~/.docker/config.js
+
+# ===================================
+# PADRÕES GERAIS SENSÍVEIS
+# ===================================
+secret*
+secrets*
+!.env.example
+!.gitignore
